@@ -1,13 +1,15 @@
 .card{
     border: 1.5px solid black;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: rgb(180, 169, 153);
     padding: 30px;
+    padding-left: 60px;
     margin: 20px;
     width: 270px;
     display:flex;
     flex-direction: column;
     flex-grow: 1;
+    box-shadow: 0px 3px 5px;
 
 }
 .card-1{
