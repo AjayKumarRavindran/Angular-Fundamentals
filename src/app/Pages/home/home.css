@@ -1,0 +1,18 @@
+.card{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 20px;
+    width: 270px;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.card-1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
