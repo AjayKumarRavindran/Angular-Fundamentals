@@ -1,1 +1,36 @@
-<p>Contact page</p>
+<div class="">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>City</th>
+                <th>Phone</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            @for(user of Users; track $index)
+            {
+            <tr>
+
+                <td>🆔&nbsp;{{user.ID}}</td>
+                <td>👤&nbsp;{{user.Name}}</td>
+                <td>📅&nbsp;{{user.Age}}</td>
+                <td>📩&nbsp;{{user.Email}}</td>
+                <td>&nbsp;⚥&nbsp;&nbsp;{{user.Gender}}</td>
+                <td>📍&nbsp;{{user.City}}</td>
+                <td>📞&nbsp;{{user.Phone}}</td>
+
+            </tr>
+            }
+        </tbody>
+
+
+    </table>
+</div>

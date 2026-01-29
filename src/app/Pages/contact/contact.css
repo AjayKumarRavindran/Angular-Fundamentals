@@ -1,0 +1,12 @@
+.table{
+
+    border: 2px solid black ;
+    border-radius: 5px;
+    border-collapse: collapse;
+    text-align:left;
+    padding: 30px;
+    width: 500px;
+    margin-top:90px;
+    margin-left: 300px;
+    
+}
